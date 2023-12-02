@@ -10,7 +10,7 @@ fi
 dnf update -y
 
 # Install the desired packages
-dnf install -y zsh git htop neofetch emacs fzf terminator cowsay w3m python3 python3-pip openssh-clients vlc curl wget wine lutris playonlinux mc
+dnf install -y zsh git htop neofetch emacs fzf terminator cowsay w3m python3 python3-pip openssh-clients vlc curl wget wine lutris playonlinux mc btop lynx links
 
 # Set Zsh as the default shell for the current user
 chsh -s /usr/bin/zsh $USER
